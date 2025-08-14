@@ -7,9 +7,9 @@ print (30*"-","COMEÇO DO MEU CÓDIGO",30*"-")
 comentario de bloco
 
 '''
-
-print (" ")
 '''
+print (" ")
+
 # Meu nome
 nome = "Henrique"
 print ("Qual seu nome: ",nome)
