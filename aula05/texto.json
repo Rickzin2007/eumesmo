@@ -1,0 +1,14 @@
+{
+   "0":{
+        "nome" : "Henrique",
+        "idade" : 17,
+        "profissao" : ["pedreiro NATO"]
+   },
+ "1": {
+        "nome" : "Leonardo",
+        "idade" : 16,
+        "profissao" :"Estudante"    
+
+
+  }
+}
