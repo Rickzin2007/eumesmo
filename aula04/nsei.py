@@ -1,10 +1,12 @@
-'''programa: Sorteio V.1.0
+
+'''
+programa: Sorteio V.1.0
 impotando bibliotecas
 Aula 04: 10/08/2025
 Random: escolha aleatoria
 Descrição: sistema recebe o nome dos candidatos e realiza o sorteio
 
-'''
+
 '''
 #importando bibliotecas(lib)
 import random
@@ -19,7 +21,7 @@ lista_nomes = [nome1, nome2, nome3, nome4, nome5]
 
 escolhido = random.choice(lista_nomes)
 print(escolhido)
-'''
+
 
 
 '''
@@ -28,7 +30,7 @@ impotando bibliotecas
 Aula 04: 10/08/2025
 Random: escolha aleatoria
 Descrição: sistema recebe o nome dos candidatos e realiza o sorteio
-
+'''
 
 
 #importando bibliotecas(lib)
@@ -50,13 +52,13 @@ escolhido = random.choice(lista)
 
 print("escolhido foi : ", escolhido)
 
-
+'''
 programa: Sorteio V.3.0
 impotando bibliotecas
 Aula 04: 10/08/2025
 Random: escolha aleatoria
 Descrição: sistema recebe o nome dos candidatos e realiza o sorteio
-
+'''
 
 
 #importantdo lih
@@ -80,7 +82,8 @@ while True:
         escolhido = random.choice(lista_nomes)
         lista_sorteados.append(escolhido)
         #excluir o sorteado da lista original
-      
+
+        '''     
         pop - função, remove pelo indice 
             pop() - remove o ultimo elemento
             pop(0) - remove o indice 0
@@ -88,10 +91,9 @@ while True:
             del(1:10)
 
         remove - remove a partir de uma variavel
-            Lista.remove(variavel)
-
+        Lista.remove(variavel)
         '''
-'''
+        
         if escolhido in lista_nomes:
             del[escolhido]
             print('Nome escolhido: ')
@@ -125,7 +127,7 @@ if num1 == num_secreto:
 else:
     print('Voce perdeu')
     print(f'Voce errou, o numero secreto era {num_secreto}.')
-'''
+
 '''
 versão 2.0
 '''

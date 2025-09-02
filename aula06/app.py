@@ -48,7 +48,6 @@ while True:
             except FileNotFoundError:
                 print(f'Arquivo {nome_arquivo}.json não encontrado!')
             continue
-            continue
         case '4':
             print('Saindo do sistema...')
             break

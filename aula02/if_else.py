@@ -4,7 +4,7 @@
 # alterando virgula e ponto
 # if else
 
-'''
+
 #FIXME - contatenação com
 nome = "Henrique"
 idade = 17
@@ -90,7 +90,7 @@ else:
    print(f'Nota 1: {nota3} | nota 2: {nota4}')
    print(20*'-')
    print (f'média{media}')
-'''
+
 
 
 print (30*"-", "VARIAVEIS",30*"-")   
