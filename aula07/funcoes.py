@@ -100,3 +100,4 @@ while True:
             print('Saindo do Banco...')
             time.sleep(5)
             break
+        
