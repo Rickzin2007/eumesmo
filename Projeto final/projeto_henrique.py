@@ -9,10 +9,10 @@ limpar = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 usuarios = []
 
-# Caminho do arquivo principal de livros
+# Caminho do arquivo dos livros para o JSON
 caminho_livros = 'C:\\Users\\ead\\Documents\\Logica de programação\\Henrique07\\livros.json'
 
-# Carrega os livros do arquivo, se existir
+# Carrega os livros do arquivo, caso exista
 if os.path.exists(caminho_livros):
     with open(caminho_livros, 'r', encoding='utf-8') as f:
         usuarios = json.load(f)
@@ -29,7 +29,7 @@ while True:
     opcao = input('Digite a opção desejada: ')
     limpar()
     match opcao:
-        #Primeiro cadastro do livro
+        #Primeira etapa o cadastro do livro
         case '1':
             usuario = {}
             usuario['Livro: '] = input('Informe o Nome do livro: ')
@@ -40,7 +40,7 @@ while True:
             print('Livro cadastrado com sucesso!')
             continue
         case '2':
-            #Segundo é listar os livros disponiveis adicionado pelo o usuario
+            #Segundo é listar os livros disponiveis adicionados pelo o usuario
             print('LIVROS DISPONIVEIS NA BIBLIOTECA')
             for usuario in usuarios:
                 for chave in usuario:
@@ -48,7 +48,7 @@ while True:
                 print('-'*40)
             time.sleep(3)
             continue
-        #Qual o livro que deve atualizar e logo em seguida o livro que quer colocar no lugar
+        #Qual o livro que deve atualizar e logo em seguida o livro que o usuario deseja colocar no lugar
         case '3':
             nome_antigo = input('Digite o nome do livro que deseja atualizar: ').strip()
             encontrado = False
